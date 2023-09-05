@@ -1,0 +1,10 @@
+.img-twice::before {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 80%;
+    top: 10%;
+    left: 20%;
+    border: 1rem solid var(--light);
+    z-index: -1;
+}
